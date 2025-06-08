@@ -22,49 +22,49 @@ export function ProjectsSection() {
         "🔒 Fort Knox level security",
         "📊 Real-time analytics dashboard",
       ],
-      status: "DEPLOYED",
+      status: "COMPLETED",
       github: "https://github.com/hriztam/Digital-MarketPlace",
       live: "#",
       color: "cyan",
     },
-    // {
-    //   title: "TaskMaster Pro",
-    //   description:
-    //     "A task management app that actually makes you want to be productive. Features real-time collaboration and enough gamification to make your to-do list addictive.",
-    //   longDescription:
-    //     "Say goodbye to boring task lists! This app turns productivity into a game with achievements, streaks, and team challenges. Built with React and powered by pure determination.",
-    //   tech: ["React", "Firebase", "WebSockets", "PWA"],
-    //   features: [
-    //     "🎮 Gamified task completion",
-    //     "👥 Real-time team collaboration",
-    //     "📈 Productivity analytics",
-    //     "🏆 Achievement system",
-    //     "📱 Works offline (because WiFi fails)",
-    //   ],
-    //   status: "BETA",
-    //   github: "#",
-    //   live: "#",
-    //   color: "green",
-    // },
-    // {
-    //   title: "CodeSnippet Vault",
-    //   description:
-    //     "A developer's treasure chest for storing, organizing, and sharing code snippets. Because we all copy-paste from Stack Overflow anyway.",
-    //   longDescription:
-    //     "Finally, a place to store all those random code snippets you'll definitely need someday. Features syntax highlighting, tagging, and search that actually works.",
-    //   tech: ["NextJS", "PostgreSQL", "Prisma", "Tailwind"],
-    //   features: [
-    //     "🎨 Syntax highlighting for 50+ languages",
-    //     "🏷️ Smart tagging system",
-    //     "🔍 Search that finds what you need",
-    //     "📤 Easy sharing with teams",
-    //     "🌙 Dark mode (obviously)",
-    //   ],
-    //   status: "IN_DEVELOPMENT",
-    //   github: "#",
-    //   live: "#",
-    //   color: "pink",
-    // },
+    {
+      title: "Packet Peeper",
+      description:
+        "A network analyzer which will keep your packets safe and protected.",
+      longDescription:
+        "PacketPeeper is a real-time network analyzer and monitoring tool designed to capture, inspect, and analyze network traffic. Built for developers, network admins, and cybersecurity enthusiasts, it provides deep insights into incoming and outgoing packets, protocols, and network health.",
+      tech: ["React", "JavaScript", "Python", "Scapy", "Flask"],
+      features: [
+        "Live Packet Capture",
+        "Protocol Filtering",
+        "IPacket Details View",
+        "Connection Tracker",
+        "Traffic Statistics Dashboard",
+      ],
+      status: "IN_DEVELOPMENT",
+      github: "https://github.com/Harshit7623/Packet_Peeper.git",
+      live: "#",
+      color: "green",
+    },
+    {
+      title: "Gitbuddy",
+      description:
+        "GitBuddy is a sleek and interactive web application that fetches and visualizes a user’s GitHub profile using the GitHub API",
+      longDescription:
+        "GitBuddy is a sleek and interactive web application that fetches and visualizes a user’s GitHub profile using the GitHub API.Whether you're showcasing your contributions or exploring another developer’s profile, GitBuddy provides a cleaner, more engaging experience.",
+      tech: ["HTML", "CSS", "JavaScript", "REST API"],
+      features: [
+        "GitHub OAuth/Username Search",
+        "Profile Overview",
+        "Top Repositories Highlight",
+        "Responsive UI",
+        "🌙 Dark mode (obviously)",
+      ],
+      status: "DEPLOYED",
+      github: "https://github.com/hriztam/GitBuddy",
+      live: "https://gitbuddy.netlify.app/",
+      color: "pink",
+    },
     // {
     //   title: "WeatherBot 9000",
     //   description:
@@ -110,6 +110,9 @@ export function ProjectsSection() {
   };
 
   const handleGithub = (link: string) => {
+    window.open(link, "_blank");
+  };
+  const handleLive = (link: string) => {
     window.open(link, "_blank");
   };
 
@@ -184,6 +187,7 @@ export function ProjectsSection() {
                   Code
                 </Button>
                 <Button
+                  onClick={() => handleLive(projects[selectedProject].live)}
                   size="sm"
                   className="bg-gradient-to-r from-green-500 to-cyan-500 hover:from-green-600 hover:to-cyan-600 text-black"
                 >

@@ -4,14 +4,15 @@ export function ExperienceSection() {
       title: "Frontend Developer",
       company: "Grey Scientific Labs",
       period: "October 2024 - April 2025",
-      description: "Building the future one line of code at a time.",
+      description:
+        "As a Front-end Developer Intern at Grey Scientific Labs, I enhanced app performance, implemented real-time features, and contributed to key system functionalities including admin controls and API integrations.",
       achievements: [
-        "Reduced loading times by 300% (users now blink and miss it)",
-        "Mentored 5 junior developers (they can now center a div)",
-        "Implemented CI/CD pipeline (robots now deploy our code)",
-        "Survived 47 production deployments on Fridays",
+        "Refactored components and routing logic, resulting in a 25% faster app load and navigation.",
+        "Developed custom axios-based API handlers, improving code readability and maintainability by 40%",
+        "Implemented a multi-role group chat feature using WebSockets for real-time communication",
+        "Built permissions and control panels, enabling user role management and system-level access control.",
       ],
-      tech: ["ReactJS", "TypeScript", "Redux", "TailwindCSS", "Sanity"],
+      tech: ["NextJS", "ReactJS", "TypeScript", "Redux", "TailwindCSS"],
       color: "cyan",
     },
     {
@@ -19,14 +20,14 @@ export function ExperienceSection() {
       company: "Bitfumes Webnologies",
       period: "March 2024 - August 2024",
       description:
-        "Wore multiple hats (literally and figuratively), built MVPs faster than you can say 'pivot', and learned that 'it works on my machine' isn't a valid deployment strategy.",
+        "As a Front-end Developer Intern at Bitfumes, I played a key role in building and refining interactive web interfaces, focusing on scheduling tools and seamless data integration using React and TypeScript.",
       achievements: [
-        "Built 3 MVPs from scratch (2 are still alive)",
-        "Mastered the art of feature flags (toggle all the things!)",
-        "Optimized database queries (goodbye N+1 problems)",
-        "Became fluent in startup buzzword bingo",
+        "Collaborated with design and backend teams for smooth UI/UX implementation",
+        "Integrated APIs to fetch and display real-time data",
+        "Participated in code reviews to ensure high-quality, maintainable code",
+        "Contributed to scalable component development in a fast-paced team.",
       ],
-      tech: ["React", "NodeJS", "MongoDB", "Docker"],
+      tech: ["React", "TypeScript", "Shadcn", "Bootstrap"],
       color: "green",
     },
   ];
@@ -127,7 +128,7 @@ export function ExperienceSection() {
             <div className="text-sm text-cyan-400">Problems Solved</div>
           </div>
           <div className="text-center">
-            <div className="text-2xl font-bold text-pink-400">42</div>
+            <div className="text-2xl font-bold text-pink-400">19</div>
             <div className="text-sm text-yellow-400">Technologies Learned</div>
           </div>
           <div className="text-center">
