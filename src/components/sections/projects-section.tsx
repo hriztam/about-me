@@ -9,11 +9,43 @@ export function ProjectsSection() {
 
   const projects = [
     {
+      title: "GujjuGPT",
+      description:
+        "A Fine-tuned Gujarati LLM model for generating text and understanding context. Fine-tuned on a diverse dataset of Gujarati text, it can generate coherent and contextually relevant responses.",
+      tech: ["Python", "PyTorch", "Transformers", "Flask", "Hugging Face"],
+      features: [
+        "🤖 AI-powered text generation",
+        "⚡ Contextual understanding",
+        "📱 User-friendly API",
+        "🔒 Secure and private",
+        "📊 Analytics dashboard.",
+      ],
+      status: "IN_DEVELOPMENT",
+      github: "https://github.com/hriztam/GujjuGPT",
+      live: "#",
+      color: "green",
+    },
+    {
+      title: "miniGPT",
+      description:
+        "Implemented a mini version of GPT-2 from scratch using PyTorch. This project showcases the core principles of transformer architecture and language modeling.",
+      tech: ["Python", "Pytorch", "Numpy", "Neural Networks"],
+      features: [
+        "🤖 AI-powered product recommendations",
+        "⚡ Lightning-fast checkout process",
+        "📱 Responsive design that works on a potato",
+        "🔒 Fort Knox level security",
+        "📊 Real-time analytics dashboard",
+      ],
+      status: "IN_DEVELOPMENT",
+      github: "https://github.com/hriztam/miniGPT",
+      live: "#",
+      color: "cyan",
+    },
+    {
       title: "Pixel Penguin",
       description:
         "An e-commerce platform so advanced, it predicts what you want to buy before you know it. Features AI-powered recommendations and a checkout process smoother than butter.",
-      longDescription:
-        "Built with NextJS and the tears of my enemies (just kidding, mostly coffee). This platform handles everything from inventory management to payment processing, with a sprinkle of machine learning magic.",
       tech: ["NextJS", "NodeJS", "MongoDB", "Stripe", "TypeScript"],
       features: [
         "🤖 AI-powered product recommendations",
@@ -31,8 +63,6 @@ export function ProjectsSection() {
       title: "Packet Peeper",
       description:
         "A network analyzer which will keep your packets safe and protected.",
-      longDescription:
-        "PacketPeeper is a real-time network analyzer and monitoring tool designed to capture, inspect, and analyze network traffic. Built for developers, network admins, and cybersecurity enthusiasts, it provides deep insights into incoming and outgoing packets, protocols, and network health.",
       tech: ["React", "JavaScript", "Python", "Scapy", "Flask"],
       features: [
         "Live Packet Capture",
@@ -50,8 +80,6 @@ export function ProjectsSection() {
       title: "Gitbuddy",
       description:
         "GitBuddy is a sleek and interactive web application that fetches and visualizes a user’s GitHub profile using the GitHub API",
-      longDescription:
-        "GitBuddy is a sleek and interactive web application that fetches and visualizes a user’s GitHub profile using the GitHub API.Whether you're showcasing your contributions or exploring another developer’s profile, GitBuddy provides a cleaner, more engaging experience.",
       tech: ["HTML", "CSS", "JavaScript", "REST API"],
       features: [
         "GitHub OAuth/Username Search",
@@ -65,25 +93,6 @@ export function ProjectsSection() {
       live: "https://gitbuddy.netlify.app/",
       color: "pink",
     },
-    // {
-    //   title: "WeatherBot 9000",
-    //   description:
-    //     "A weather app that doesn't just tell you it's raining when you're already soaked. Features hyperlocal forecasts and sarcastic commentary.",
-    //   longDescription:
-    //     "Weather apps are boring. This one has personality! Get weather updates with a side of humor and accuracy that puts meteorologists to shame.",
-    //   tech: ["Python", "FastAPI", "React", "Weather APIs"],
-    //   features: [
-    //     "🌦️ Hyperlocal weather predictions",
-    //     "😄 Sarcastic weather commentary",
-    //     "📱 Push notifications that matter",
-    //     "🎯 Accuracy that's actually accurate",
-    //     "🌈 Beautiful weather visualizations",
-    //   ],
-    //   status: "DEPLOYED",
-    //   github: "#",
-    //   live: "#",
-    //   color: "yellow",
-    // },
   ];
 
   const getStatusColor = (status: string) => {
@@ -199,7 +208,7 @@ export function ProjectsSection() {
 
             <p className="text-green-300 mb-6 italic">
               {"// "}
-              {projects[selectedProject].longDescription}
+              {projects[selectedProject].description}
             </p>
 
             <div className="mb-6">

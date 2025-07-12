@@ -1,6 +1,21 @@
 export function ExperienceSection() {
   const experiences = [
     {
+      title: "AI Developer Intern",
+      company: "mirrAR",
+      period: "June 2025 - Present",
+      description:
+        "As a AI Intern at mirrAR, I fine-tuned machine learning models and optimized data pipelines. Worked on creating AI Agents for real-time data processing and analysis.",
+      achievements: [
+        "Integrated AI models into the existing architecture, improving system performance by 30%",
+        "Developed custom data processing pipelines, reducing data latency by 20%",
+        "Implemented real-time data analysis features, enhancing user experience and engagement.",
+        "Built a Multi-Agent System for real-time data processing, improving system efficiency by 25%",
+      ],
+      tech: ["Python", "Pytorch", "Pandas", "Transformers", "N8N Workflows"],
+      color: "pink",
+    },
+    {
       title: "Frontend Developer",
       company: "Grey Scientific Labs",
       period: "October 2024 - April 2025",
@@ -27,7 +42,7 @@ export function ExperienceSection() {
         "Participated in code reviews to ensure high-quality, maintainable code",
         "Contributed to scalable component development in a fast-paced team.",
       ],
-      tech: ["React", "TypeScript", "Shadcn", "Bootstrap"],
+      tech: ["React", "TypeScript", "Shadcn", "TailwindCSS", "Axios"],
       color: "green",
     },
   ];
