@@ -122,8 +122,8 @@ export function HomeSection() {
         {/* Tech Stack Preview */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
           {[
-            { name: "NextJS", icon: "⚛️", level: "EXPERT" },
-            { name: "NodeJS", icon: "🟢", level: "MASTER" },
+            { name: "JavaScript", icon: "⚛️", level: "EXPERT" },
+            { name: "C++", icon: "🟢", level: "MASTER" },
             { name: "Python", icon: "🐍", level: "WIZARD" },
             { name: "Rust", icon: "🦀", level: "LEARNING" },
           ].map((tech, index) => (
