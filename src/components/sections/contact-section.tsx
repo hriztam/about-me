@@ -275,7 +275,7 @@ export function ContactSection() {
     ╔══════════════════════════════════════════════════════════════╗
     ║  Thanks for visiting my digital realm! Let's create magic!   ║
     ║                                                              ║
-    ║  "The best way to predict the future is to code it."        ║
+    ║  "The best way to predict the future is to code it."         ║
     ║                                        - Hritam (probably)   ║
     ╚══════════════════════════════════════════════════════════════╝
           `}</pre>

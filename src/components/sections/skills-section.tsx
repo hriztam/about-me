@@ -235,7 +235,9 @@ export function SkillsSection() {
               Lines of Code Written:
             </div>
             <div className="text-2xl font-mono text-green-400">1,337,420</div>
-            <div className="text-xs text-gray-400">{"// And counting..."}</div>
+            <div className="text-xs text-gray-400">
+              {"// pulled this number out of my ..."}
+            </div>
           </div>
           <div className="bg-gradient-to-r from-green-900/30 to-cyan-900/30 p-4 rounded-lg border border-cyan-400/30">
             <div className="text-cyan-400 font-bold">Bugs Squashed:</div>

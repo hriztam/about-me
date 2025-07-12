@@ -7,7 +7,7 @@ import { Zap, Code, Coffee } from "lucide-react";
 export function HomeSection() {
   const [glitchText, setGlitchText] = useState("HRITAM SHRIVASTAVA");
   const [typedText, setTypedText] = useState("");
-  const fullText = "Full Stack Blockchain Developer";
+  const fullText = "Full Stack AI Developer";
 
   const handleBuyCoffee = () => {
     window.open("https://buymeacoffee.com/cypherhritam", "_blank");
