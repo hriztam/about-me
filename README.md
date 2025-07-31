@@ -32,7 +32,7 @@ Welcome to the most epic developer portfolio in the digital realm! This isn't ju
 
 ## 🛠️ Tech Stack
 
-\`\`\`javascript
+```javascript
 const techStack = {
   frontend: ["Next.js 14", "React 18", "TypeScript", "Tailwind CSS"],
   backend: ["Node.js", "API Routes", "Server Actions"],
@@ -41,11 +41,11 @@ const techStack = {
   ai: ["Neural Network Simulation", "Context-Aware Responses"],
   deployment: ["Vercel", "Edge Functions", "CDN Optimization"]
 }
-\`\`\`
+```
 
 ## 🚀 Quick Start
 
-\`\`\`bash
+```bash
 # Clone the repository
 git clone https://github.com/hritam/cyberpunk-portfolio.git
 
@@ -63,7 +63,7 @@ npm run build
 
 # Deploy to Vercel
 vercel --prod
-\`\`\`
+```
 
 ## 🎯 Features
 
@@ -95,22 +95,6 @@ vercel --prod
 - **Card Animations**: Hover effects with arrows, lightning, rockets, and bulbs
 - **Terminal Games**: Hidden commands and interactive responses
 
-## 🎮 Terminal Commands
-
-The interactive terminal supports various commands:
-
-\`\`\`bash
-help        # Show all available commands
-about       # Learn about Hritam
-skills      # Display coding superpowers
-joke        # Get a programmer joke
-matrix      # Enter the matrix (opens Matrix mode)
-clear       # Clear terminal
-whoami      # Identity crisis resolver
-hack        # Attempt to hack (spoiler: you can't)
-sidebar     # Toggle sidebar (mobile only)
-aria        # Summon the AI assistant
-\`\`\`
 
 ## 🤖 AI Assistant - ARIA
 
@@ -122,22 +106,22 @@ aria        # Summon the AI assistant
 - **Real-time Responses**: Smooth conversation flow
 - **Matrix Integration**: Seamless entry from main portfolio
 
-### ARIA Commands
-\`\`\`
+### ARIA Commands (Under-development)
+```
 /help       # Show ARIA capabilities
 /matrix     # Display Matrix statistics
 /neural     # Show neural network status
 /code       # Get coding advice
 /startup    # Discuss startup ideas
 /build      # Talk about building products
-\`\`\`
+```
 
 ## 🎨 Customization
 
 ### Color Themes
 The portfolio uses CSS custom properties for easy theming:
 
-\`\`\`css
+```css
 :root {
   --cyber-cyan: #00ffff;
   --cyber-green: #00ff00;
@@ -146,26 +130,26 @@ The portfolio uses CSS custom properties for easy theming:
   --cyber-bg: #0a0a0a;
   --matrix-green: #00ff41;
 }
-\`\`\`
+```
 
 ### Animation Speed
 Adjust animation speeds in the CSS:
 
-\`\`\`css
+```css
 .animate-fast { animation-duration: 0.3s; }
 .animate-normal { animation-duration: 0.6s; }
 .animate-slow { animation-duration: 1.2s; }
 .animate-matrix { animation-duration: 2s; }
-\`\`\`
+```
 
 ### AI Personality
 Customize ARIA's responses in the neural.env file:
 
-\`\`\`env
+```env
 AI_PERSONALITY="cyberpunk_hacker"
 AI_RESPONSE_STYLE="witty_and_helpful"
 AI_HUMOR_LEVEL="maximum"
-\`\`\`
+```
 
 ## 🚀 Performance
 
@@ -188,7 +172,7 @@ AI_HUMOR_LEVEL="maximum"
 ## 🔧 Development
 
 ### Project Structure
-\`\`\`
+```
 ├── app/                    # Next.js app directory
 ├── components/            # React components
 │   ├── sections/         # Page sections
@@ -203,10 +187,10 @@ AI_HUMOR_LEVEL="maximum"
 ├── lib/                 # Utility functions
 ├── public/             # Static assets
 └── styles/             # Global styles
-\`\`\`
+```
 
 ### Scripts
-\`\`\`json
+```json
 {
   "dev": "next dev",
   "build": "next build",
@@ -215,7 +199,7 @@ AI_HUMOR_LEVEL="maximum"
   "type-check": "tsc --noEmit",
   "matrix": "echo 'Entering the Matrix...' && npm run dev"
 }
-\`\`\`
+```
 
 ## 🎉 Contributing
 
@@ -261,7 +245,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🎮 Fun Stats
 
-\`\`\`javascript
+```javascript
 const portfolioStats = {
   linesOfCode: 18750,
   componentsBuilt: 52,
@@ -275,7 +259,7 @@ const portfolioStats = {
   neuralPathways: 42000,
   smilesCaused: "∞"
 }
-\`\`\`
+```
 
 ## 🧠 ARIA AI Assistant Features
 
@@ -326,7 +310,7 @@ AI assistant configuration including personality, response style, and neural net
 ## 🚀 Deployment Guide
 
 ### Vercel Deployment
-\`\`\`bash
+```bash
 # Install Vercel CLI
 npm i -g vercel
 
@@ -336,13 +320,13 @@ vercel --prod
 # Set environment variables
 vercel env add NEURAL_NETWORK_ENABLED
 vercel env add AI_ASSISTANT_MODE
-\`\`\`
+```
 
 ### Environment Variables
-\`\`\`env
+```env
 NEXT_PUBLIC_MATRIX_MODE=true
 NEXT_PUBLIC_AI_ASSISTANT=enabled
 NEXT_PUBLIC_NEURAL_PROCESSING=maximum
-\`\`\`
+```
 
 *P.S. - Try clicking around, there are surprises everywhere! Don't forget to enter the Matrix and chat with ARIA! 🎉🤖*
