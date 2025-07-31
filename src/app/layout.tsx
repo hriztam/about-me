@@ -1,11 +1,11 @@
 import type React from "react";
-import "@/app/globals.css";
-import { ThemeProvider } from "@/components/theme-provider";
+import "@/src/app/globals.css";
+import { ThemeProvider } from "@/src/components/theme-provider";
 
 export const metadata = {
   title: "Hritam Shrivastava - Cyberpunk Portfolio",
   description:
-    "Full Stack Developer - Building the future one line of code at a time",
+    "Full Stack Developer & Digital Architect - Building the future one line of code at a time",
   generator: "v0.dev",
 };
 
